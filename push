@@ -1,0 +1,10 @@
+#!/bin/bash
+# This is a simple shell file that helps with Pushing my files to git
+# Feel free to copy and modify as needed and use.
+
+git add .
+echo "Type in commit message: "
+read message
+git commit -m "$message"
+git push origin dev
+echo "==================================DONE================================="
